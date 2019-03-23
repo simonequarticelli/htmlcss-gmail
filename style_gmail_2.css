@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("sfondo legno.png");
+  background-size: cover;
+  font-family: 'Sniglet', cursive;
+}
+
+#container {
+  margin: auto;
+  width: 700px;
+}
+
+header > img {
+  width: 110px;
+  height: 110px;
+  margin-bottom: -18px;
+}
+
+header > span{
+  color: white;
+  font-size: 30px;
+  margin-top: 22px;
+}
+
+.unread-count {
+  color: white;
+  font-size: 30px;
+  margin-top: 22px;
+}
+
+.unread-count > span{
+  background-color: #ffa02d;
+  color: black;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.email_container > .email {
+  border: 2px solid black;
+}
+
+.email.unread {
+  background-color: white;
+}
+
+.email.read{
+  background-color: #cecece;
+}
+
+.email > .suject {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer > .firma {
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+}
